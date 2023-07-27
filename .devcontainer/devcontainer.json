@@ -1,0 +1,7 @@
+{
+  "name": "Test",
+  "build": {
+		"dockerfile": "../Dockerfile"
+	},
+  "postStartCommand": "cat /scripts/alias.sh >> ~/.bashrc"
+}

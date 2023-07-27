@@ -1,0 +1,2 @@
+
+alias hello='echo $USER'
