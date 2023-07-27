@@ -3,5 +3,5 @@
   "build": {
 		"dockerfile": "../Dockerfile"
 	},
-  "postStartCommand": "cat /scripts/alias.sh >> ~/.bashrc"
+  "postStartCommand": "cat /scripts/alias.sh >> ~/.bashrc && touch /tmp/newfile"
 }
