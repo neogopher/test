@@ -1,2 +1,2 @@
 
-alias hello='echo $USER'
+alias hello='echo Hello $USER'
