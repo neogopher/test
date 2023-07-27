@@ -1,3 +1,3 @@
 
 alias hello='echo Hello $USER'
-alias yr='echo date +%Y'
+alias yr='date +%Y'
