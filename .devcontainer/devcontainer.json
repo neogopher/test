@@ -3,5 +3,6 @@
   "build": {
 		"dockerfile": "../Dockerfile"
 	},
+  "initializeCommand": "git pull",
   "postStartCommand": "cat /scripts/alias.sh >> ~/.bashrc && touch /tmp/newfile"
 }
