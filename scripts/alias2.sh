@@ -1,1 +1,1 @@
-alias newdate='date'
+alias newdate='date +%Y'
