@@ -1,1 +1,1 @@
-alias hw='echo Hello $USER world'
+alias hw='echo Hello $USER world $SHELL'
